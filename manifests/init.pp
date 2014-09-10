@@ -96,6 +96,7 @@ class corosync(
   $rrp_mode           = 'none',
   $ttl                = false,
   $packages           = ['corosync', 'pacemaker'],
+  $additional_configuration = '',
 ) {
 
   # Making it possible to provide data with parameterized class declarations or
